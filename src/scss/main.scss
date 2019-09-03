@@ -1,4 +1,4 @@
-.intro{
+.main{
 
     text-align: center;
     color: #58402b;
@@ -39,5 +39,40 @@
       height: auto;
 
     }
+    .second{
+      background-color: $main-bg;
+      text-align: center;
+      padding:30px;
 
+      h5{
+        font-size: 20px;
+        margin: 15px;
+        padding: 15px;
+      }
+
+      .row{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        margin: 15px;
+        padding: 15px;
+
+        .hardcore,
+        .nofeedback,
+        .notsafe{
+
+          img{
+            width: 33%;
+            height: auto;
+          }
+
+        }
+      }
+      .before{
+          img{
+            width: 35%;
+          }
+      }
+    }
 }

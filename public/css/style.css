@@ -36,7 +36,7 @@ button {
   border-radius: 5px;
 }
 
-.intro {
+.main {
   text-align: center;
   color: #58402b;
   font-weight: lighter;
@@ -44,42 +44,73 @@ button {
   padding: 5px;
 }
 
-.intro .signIn {
+.main .signIn {
   margin: 10px;
   padding: 5px;
 }
 
-.intro h1 {
+.main h1 {
   font-size: 40px;
   margin: 10px;
   padding: 5px;
 }
 
-.intro p {
+.main p {
   font-size: 15px;
   margin: 10px;
   padding: 5px;
 }
 
-.intro button {
+.main button {
   background-color: blue;
   color: white;
   margin: 10px;
   padding: 5px;
 }
 
-.intro .mail a {
+.main .mail a {
   color: #58402b;
   text-decoration: none;
 }
 
-.intro .mail a:hover {
+.main .mail a:hover {
   color: blue;
 }
 
-.intro .main-ill img {
+.main .main-ill img {
   width: 50%;
   height: auto;
+}
+
+.main .second {
+  background-color: #fce7d2;
+  text-align: center;
+  padding: 30px;
+}
+
+.main .second h5 {
+  font-size: 20px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.main .second .row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 15px;
+  padding: 15px;
+}
+
+.main .second .row .hardcore img,
+.main .second .row .nofeedback img,
+.main .second .row .notsafe img {
+  width: 33%;
+  height: auto;
+}
+
+.main .second .before img {
+  width: 35%;
 }
 
 footer {
