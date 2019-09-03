@@ -1,13 +1,43 @@
-.main{
-  
+.intro{
 
-  min-height: 500px;
-  background-color: $main-bg;
-
-  @extend %text-position;
-
-  p{
     text-align: center;
-    font-size: $text-medium;
-  }
+    color: #58402b;
+    font-weight: lighter;
+    margin: 10px;
+    padding: 5px;
+
+    .signIn{
+      margin: 10px;
+      padding: 5px;
+    }
+    h1{
+      font-size: 40px;
+      margin: 10px;
+      padding: 5px;
+    }
+    p{
+      font-size: 15px;
+      margin: 10px;
+      padding: 5px;
+    }
+    button{
+      background-color: blue;
+      color:white;
+      margin: 10px;
+      padding: 5px;
+    }
+    .mail a{
+      color: #58402b;
+      text-decoration: none;
+    }
+    .mail a:hover{
+      color: blue;
+
+    }
+    .main-ill img{
+      width: 50%;
+      height: auto;
+
+    }
+
 }

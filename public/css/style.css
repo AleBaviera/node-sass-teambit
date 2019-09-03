@@ -6,7 +6,6 @@
 }
 
 footer,
-.main,
 header nav {
   display: flex;
   justify-content: space-between;
@@ -37,14 +36,50 @@ button {
   border-radius: 5px;
 }
 
-.main {
-  min-height: 500px;
-  background-color: #fce7d2;
+.intro {
+  text-align: center;
+  color: #58402b;
+  font-weight: lighter;
+  margin: 10px;
+  padding: 5px;
 }
 
-.main p {
-  text-align: center;
+.intro .signIn {
+  margin: 10px;
+  padding: 5px;
+}
+
+.intro h1 {
+  font-size: 40px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.intro p {
   font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.intro button {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+}
+
+.intro .mail a {
+  color: #58402b;
+  text-decoration: none;
+}
+
+.intro .mail a:hover {
+  color: blue;
+}
+
+.intro .main-ill img {
+  width: 50%;
+  height: auto;
 }
 
 footer {
