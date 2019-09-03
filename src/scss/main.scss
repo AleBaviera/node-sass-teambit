@@ -1,0 +1,13 @@
+.main{
+  
+
+  min-height: 500px;
+  background-color: $main-bg;
+
+  @extend %text-position;
+
+  p{
+    text-align: center;
+    font-size: $text-medium;
+  }
+}

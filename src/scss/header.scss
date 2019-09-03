@@ -1,0 +1,27 @@
+
+
+header nav {
+  background-color: $header-bg;
+  height: 100px;
+
+  @extend %text-position;
+
+
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+}
+header nav ul li{
+  list-style: none;
+  padding: 5px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+}
+button{
+  border: 1px solid blue;
+  border-radius: 5px;
+}

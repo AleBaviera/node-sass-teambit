@@ -1,0 +1,15 @@
+footer {
+  height: 100px;
+
+  background-color: $footer-bg;
+
+  @extend %text-position;
+
+
+
+  p{
+    text-align: center;
+    font-size: $text-small;
+  }
+
+}

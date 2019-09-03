@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+  font-family: 'Lato',sans-serif;
+}
+
+$header-bg: white;
+
+$main-bg: #fce7d2;
+
+$footer-bg: white;
+
+
+$text-small: 5px;
+$text-medium: 15px;
+$text-big: 25px;
+
+%text-position{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+@import 'header';
+
+@import 'main';
+
+@import 'footer';
+
+
+
+
+.container{
+  width : 100%;
+  height :   100%;
+
+}
