@@ -126,6 +126,40 @@
         border: 1px solid #58402b;
         margin-left: 20%;
       }
+      .signIn{
+        margin: 10px;
+        padding: 5px;
+      }
+      h1{
+        font-size: 40px;
+        margin: 10px;
+        padding: 5px;
+      }
+      p{
+        font-size: 15px;
+        margin: 10px;
+        padding: 5px;
+      }
+      button{
+        background-color: blue;
+        color:white;
+        margin: 10px;
+        padding: 5px;
+      }
+      .mail a{
+        color: #58402b;
+        text-decoration: none;
+      }
+      .mail a:hover{
+        color: blue;
+
+      }
+      .main-ill img{
+        width: 50%;
+        height: auto;
+
+      }
+    
     }
   .padding{
     padding: 5% 10%;

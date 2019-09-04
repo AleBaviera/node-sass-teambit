@@ -44,11 +44,21 @@ header nav ul li {
 header nav ul li a {
   color: #58402b;
   text-decoration: none;
+  position: relative;
 }
 
 button {
   border: 1px solid blue;
   border-radius: 5px;
+}
+
+.drop-down-menu {
+  display: none;
+}
+
+header nav ul li a:hover .drop-down-menu {
+  display: block;
+  position: absolute;
 }
 
 .main {
@@ -194,6 +204,44 @@ button {
   background-color: white;
   border: 1px solid #58402b;
   margin-left: 20%;
+}
+
+.main .eighth .signIn {
+  margin: 10px;
+  padding: 5px;
+}
+
+.main .eighth h1 {
+  font-size: 40px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.main .eighth p {
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.main .eighth button {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+}
+
+.main .eighth .mail a {
+  color: #58402b;
+  text-decoration: none;
+}
+
+.main .eighth .mail a:hover {
+  color: blue;
+}
+
+.main .eighth .main-ill img {
+  width: 50%;
+  height: auto;
 }
 
 .main .padding {

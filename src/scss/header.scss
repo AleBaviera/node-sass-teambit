@@ -35,8 +35,19 @@ header nav ul li{
 header nav ul li a{
   color: #58402b;
   text-decoration: none;
+  position: relative;
 }
 button{
   border: 1px solid blue;
   border-radius: 5px;
+}
+
+.drop-down-menu{
+  display: none;
+
+}
+
+header nav ul li a:hover .drop-down-menu{
+  display: block;
+  position: absolute;
 }
