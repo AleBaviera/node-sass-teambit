@@ -1,24 +1,39 @@
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
 
+    margin: 0;
+}
 
 header nav {
+
   background-color: $header-bg;
+
   height: 100px;
 
   @extend %text-position;
 
-
+  a{
+    color: #58402b;
+    text-decoration: none;
+  }
 }
 
 header nav ul{
+
   display: flex;
   flex-direction: row;
+  margin: 0 5%;
 }
 header nav ul li{
   list-style: none;
+  margin: 0 5px;
   padding: 5px;
 }
 
 header nav ul li a{
+  color: #58402b;
   text-decoration: none;
 }
 button{

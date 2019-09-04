@@ -1,15 +1,36 @@
-footer {
-  height: 100px;
+footer .row{
 
   background-color: $footer-bg;
+  color: #58402b;
+  display: flex;
+  flex-direction: row;
 
+  padding: 10% 5%;
   @extend %text-position;
 
-
-
-  p{
-    text-align: center;
-    font-size: $text-small;
+  .col.first{
+    max-width: 20%
   }
+
+  .col{
+
+    p{
+      font-weight: bold;
+      font-size: 15px;
+
+
+    }
+    ul li{
+      list-style: none;
+      padding: 5px;
+
+    }
+    ul li a{
+      text-decoration: none;
+      color: #58402b;
+
+    }
+  }
+
 
 }
