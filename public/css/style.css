@@ -59,40 +59,57 @@ button {
   padding: 5px;
 }
 
-.main .signIn {
+.main .first {
+  margin-top: 5%;
+}
+
+.main .first .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.main .first .row .col-50 {
+  width: 50%;
+}
+
+.main .first .row .col-50 img {
+  width: 100%;
+}
+
+.main .first .row .col-50 .signIn {
   margin: 10px;
   padding: 5px;
 }
 
-.main h1 {
+.main .first .row .col-50 h1 {
   font-size: 40px;
   margin: 10px;
   padding: 5px;
 }
 
-.main p {
+.main .first .row .col-50 p {
   font-size: 15px;
   margin: 10px;
   padding: 5px;
 }
 
-.main button {
+.main .first .row .col-50 button {
   background-color: blue;
   color: white;
   margin: 10px;
   padding: 5px;
 }
 
-.main .mail a {
+.main .first .row .col-50 .mail a {
   color: #58402b;
   text-decoration: none;
 }
 
-.main .mail a:hover {
+.main .first .row .col-50 .mail a:hover {
   color: blue;
 }
 
-.main .main-ill img {
+.main .first .row .col-50 .main-ill img {
   width: 50%;
   height: auto;
 }
